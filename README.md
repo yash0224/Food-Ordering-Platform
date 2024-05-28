@@ -1,4 +1,4 @@
-# Grocket
+# OOPS Project
 A Spring boot application for Online Food Ordering.
 ## Features
 - frontend made using JSP + CSS
