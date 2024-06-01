@@ -68,6 +68,12 @@ public class CustomerController {
 		return "login";
 	}
 
+        @GetMapping("/JWTtoken")
+	public String pageLogin(Customer customer, Model model) {
+		model.addAttribute("customerLoginForm", new Customer());
+		return "login";
+	}
+
 	@GetMapping("/register")
 	public String pageRegister(Customer customer, Model model) {
 		model.addAttribute("customerForm", new Customer());
