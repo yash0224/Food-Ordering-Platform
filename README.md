@@ -1,12 +1,12 @@
 # OOPS Project
 A Spring boot application for Online Food Ordering.
 ## Features
-- frontend made using JSP + CSS
+- frontend made using HTML, CSS, JS
 - User can register ,search products , order, add to cart ,view profile and check status of order
 - Admin can add and delete users, view orders, add products, change delivery status and maintain stock
 - Forgot password feature was also implemented
 - Connected with a MySQL Database
-- Passwords were encrypted
+- Passwords were encrypted using Bcrypt (working to implement using JWT tokens)
 ## To Run Locally
 
 1. clone the repo
