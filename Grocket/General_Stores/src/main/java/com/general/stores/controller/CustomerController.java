@@ -68,6 +68,7 @@ public class CustomerController {
 		return "login";
 	}
 
+        // Implementation of JWT Token authorization instead of using Bcrypt 
         @GetMapping("/JWTtoken")
 	public String pageLogin(Customer customer, Model model) {
 		model.addAttribute("customerLoginForm", new Customer());
