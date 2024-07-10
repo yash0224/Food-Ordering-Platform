@@ -11,7 +11,7 @@ A Spring boot application for Online Food Ordering.
 
 1. clone the repo
 2. install ```java``` and ```mysql``` database into your system
-3. use ```MySQL Workbench``` gui for database and run ```general_stores.sql``` as query
+3. use ```MySQL Workbench``` gui for database and run ```general_stores.sql``` as query and refer ```Schemas.md``` for relational schema
 4. go to resources
 5. find ```application.properties``` file in this dir
 6. now fill in the following lines
